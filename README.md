@@ -7,12 +7,11 @@ Repository to learn and practice
 
 
 ### NODE JS
----------------
 
 #### Course
 On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 * https://www.udemy.com/course/understand-nodejs/
-* All classes that had exercises are distributed amongside the directories.
+* All practical exercises are distributed amongside the classes directories.
 
 #### Useful Links
 * **Download NodeJS**: https://nodejs.org/en/download/
