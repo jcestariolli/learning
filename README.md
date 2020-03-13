@@ -19,6 +19,7 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 * **Download NodeJS**: https://nodejs.org/en/download/
 * **Visual Studio Code**: https://code.visualstudio.com/
 * **NodeJS API**: https://nodejs.org/docs/latest/api/
+* **LibUV Documentation**: http://docs.libuv.org/
  
 
 
