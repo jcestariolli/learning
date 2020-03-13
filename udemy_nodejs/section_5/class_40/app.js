@@ -1,0 +1,22 @@
+// Working with ES6 classes
+// new way to build objects, only in syntax
+// so its called Syntatic Sugar - a feature that changes how you type, but doesnt change the behaviour
+
+function Person(firstname, lastname) {
+    this.firstname = firstname;
+    this.lastname = lastname;
+}
+
+Person.prototype.greet = function(){
+    console.log(`Hello ${ this.firstname} ${this.lastname}`);
+}
+
+var john = new Person('John','Doe');
+john.greet();
+
+var jane = new Person('Jane','Doe');
+jane.greet();
+
+console.log(john.__proto__);
+console.log(jane.__proto__);
+console.log(jane.__proto__ === john.__proto__);
