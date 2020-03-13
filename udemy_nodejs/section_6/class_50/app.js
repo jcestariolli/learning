@@ -10,6 +10,7 @@ var greet = fs.readFileSync(__dirname + greetFile, 'utf8');
 console.log(greet);
 
 // If we want to work with file assynchronously, we pass a callback function
+// this using a buffer to load files. If the file is very large or many people is running this app, we can run out of memmory in node
 var greet2 = fs.readFile(
     __dirname + greetFile, 
     'utf8', // when we set the encoding, it automatically converts the response to String
