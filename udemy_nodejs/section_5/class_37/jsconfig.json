@@ -1,0 +1,7 @@
+// this file can be used to specify the ECMA Script version for the compiler
+// so vscode quem complain if something that we use isnt supported in our version
+{
+    "compilerOPtions": {
+        "target": "ES6"
+    }
+}
