@@ -8,6 +8,7 @@ var port = process.env.PORT || 3000;
 // that means that whenever i call some url like /assets/file_name.extension, express will look for it inside the current dir / public / file_name.extension
 app.use('/assets', express.static(__dirname + '/public'));
 
+// To create a middleware, just add the parameter next
 app.use('/', function (req, res, next) {
 	console.log('Request Url:' + req.url);
 	next();
