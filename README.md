@@ -3,9 +3,8 @@ Repository to learn and practice, by Jessica Cestariolli
 <br/><br/>
 
 ## Courses
-<br/><br/>
-
-### NODE JS
+<br/>
+### ------ NODE JS ------
 https://github.com/jcestariolli/learning/tree/master/udemy_nodejs
 <br/>
 
@@ -27,7 +26,7 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 
 
 --------------------------------------------------
-<br/><br/>
+<br/>
 #### EXTRAS
 <br/>
 
@@ -37,6 +36,7 @@ This command can be used to create a configuration inside the app dir / packages
 $ npm init
 ```
 <br/>
+
 And with this, the following configuration was made:
 ```
 package name: (nodejs-test-app)
@@ -60,15 +60,16 @@ About to write to C:\Users\jessi\Documents\learning\udemy_nodejs\section_8\class
 }
 ```
 
-<br/><br/>
+<br/>
 
 ##### npm install {package}
-<br/>
 This command can be used to install a package on an app directory or similar. For example, the command used on this course to install moment was:
 ```
 $ npm install moment --save
 ```
+
 <br/>
+
 The following parameters were used:
 * `--save`: specifies the installed module inside the `package.json` generated file [by `npm init`]
 
