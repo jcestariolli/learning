@@ -67,6 +67,12 @@ $ npm install moment --save
 
 The following parameters were used:
 * `--save`: specifies the installed module inside the `package.json` generated file (by `npm init`)
-
-
+ And this causes to add the the following dependencies on package.json:
+ ```
+ "dependencies": {
+    "moment": "^2.24.0"
+  }
+ ```
+ _It is important to understand that when we use the `^` symbol, we tell node that it can update minors and patches, but not major version on our depency. If we use `~`, then we tell node that it can only update patches of this dependency_
+ 
 --------------------------------------------------
