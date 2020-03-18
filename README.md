@@ -57,8 +57,15 @@ About to write to C:\Users\jessi\Documents\learning\udemy_nodejs\section_8\class
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "moment": "^2.10.6"
-  }
 }
 ```
+
+#### npm install {package}
+This command can be used to install a package on an app directory or similar. For example, the command used on this course to install moment was:
+```
+$ npm install moment --save
+```
+
+The following parameters were used:
+* `**--save**`: test
+--------------------------------------------------
