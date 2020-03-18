@@ -74,6 +74,9 @@ The following parameters were used:
   }
  ```
  <br/>
- >_It is important to understand that when we use the `^` symbol, we tell node that it can update minors and patches, but not major version on our dependency. <br/><br/>If we use `~`, then we tell node that it can only update patches of this dependency_
+ >_It is important to understand that when we use the `^` symbol, we tell node that it can update minors and patches, but not major version on our dependency._<br/><br/>
+>_If we use `~`, then we tell node that it can only update patches of this dependency_
+
+<br/>
  
 --------------------------------------------------
