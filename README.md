@@ -25,5 +25,38 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
   * **Express (NPM Package)**: https://www.npmjs.com/package/express
   * **Moment (NPM Package)**:https://www.npmjs.com/package/moment
 
+
+
 --------------------------------------------------
 
+#### Extras
+
+#### NPM INIT
+This command can be used to create a configuration inside the app dir / packages. The command used on this course was:
+`$ npm init`
+
+And with this, the following configuration was made:
+```
+package name: (nodejs-test-app)
+version: (1.0.0)
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\jessi\Documents\learning\udemy_nodejs\section_8\class_69\package.json:
+
+{
+  "name": "nodejs-test-app",
+  "version": "1.0.0",
+  "description": "NodeJS Test App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.10.6"
+  }
+}
+```
