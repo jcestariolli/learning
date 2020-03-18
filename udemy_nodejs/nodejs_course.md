@@ -57,17 +57,13 @@ About to write to C:\Users\jessi\Documents\learning\udemy_nodejs\section_8\class
 
 <br/>
 
-### npm install {package}
-This command can be used to install a package on an app directory or similar. For example, the command used on this course to install moment was:
-```
-$ npm install moment --save
-```
-
+### npm install
+This command can be used to install a package on a directory, application configuration, or similar. 
+By simple running the this command on the application directory, it will use the file `packages.json` to install any configured dependencies.
 <br/>
-
-The following parameters were used:
-* `--save`: specifies the installed module inside the `package.json` generated file (by `npm init`)
- And this causes to add the the following dependencies on package.json:
+#### Some arguments:
+* `--save`: specifies that the module should be configured also in file _packages.json_, besides the module installation.
+ For example, if you run `npm install moment --save` it will add the the following dependencies on package.json:
  ```
  "dependencies": {
     "moment": "^2.24.0"
@@ -79,9 +75,14 @@ The following parameters were used:
  > _If we use `~`, then we tell node that it can only update patches of this dependency._
 
 <br/>
-
-The install call can also be used to install all dependencies of an application, by simply running, at the app directory, the command:
-```npm install```
-So it will use the file `packages.json` to install any configured dependencies.
+ 
+ * `--save-dev`: specifies that the module should be configured also in file _packages.json_, but only using the dependy to development, not to run the application. 
+ For example, if you run `npm install jasmine-code --save-dev` it will add the the following development dependencies on package.json:
+ ```
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+ ```
+ <br/>
  
 --------------------------------------------------
