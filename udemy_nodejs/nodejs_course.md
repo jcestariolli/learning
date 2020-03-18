@@ -48,7 +48,7 @@ About to write to C:\Users\jessi\Documents\learning\udemy_nodejs\section_8\class
   "description": "NodeJS Test App",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -63,25 +63,33 @@ By simple running the this command on the application directory, it will use the
 <br/>
 #### Some arguments:
 * `--save`: specifies that the module should be configured also in file _packages.json_, besides the module installation.
- For example, if you run `npm install moment --save` it will add the the following dependencies on package.json:
- ```
- "dependencies": {
-    "moment": "^2.24.0"
-  }
- ```
- <br/>
- 
- > _It is important to understand that when we use the `^` symbol, we tell node that it can update minors and patches, but not major version on our dependency._<br/><br/>
- > _If we use `~`, then we tell node that it can only update patches of this dependency._
+ Example:
+```
+npm install moment --save
+```
+With this command, npm will add the following dependencies on package.json:
+```
+"dependencies": {
+  "moment": "^2.24.0"
+}
+```
+<br/>
+
+> _It is important to understand that when we use the `^` symbol, we tell node that it can update minors and patches, but not major version on our dependency._<br/><br/>
+> _If we use `~`, then we tell node that it can only update patches of this dependency._
 
 <br/>
  
- * `--save-dev`: specifies that the module should be configured also in file _packages.json_, but only using the dependy to development, not to run the application. 
- For example, if you run `npm install jasmine-code --save-dev` it will add the the following development dependencies on package.json:
+* `--save-dev`: specifies that the module should be configured also in file _packages.json_, but only using the dependy to development, not to run the application. 
+ Example:
  ```
-  "devDependencies": {
-    "jasmine-node": "^1.14.5"
-  }
+ npm install jasmine-code --save-dev
+ ``` 
+ With this command, node will add the the following development dependencies on package.json:
+ ```
+"devDependencies": {
+  "jasmine-node": "^1.14.5"
+}
  ```
  <br/>
  
