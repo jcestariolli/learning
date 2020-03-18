@@ -29,11 +29,13 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 
 --------------------------------------------------
 
-#### Extras
+### EXTRAS
 
-#### NPM INIT
+#### npm init
 This command can be used to create a configuration inside the app dir / packages. The command used on this course was:
-`$ npm init`
+```
+$ npm init
+```
 
 And with this, the following configuration was made:
 ```
