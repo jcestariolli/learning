@@ -18,7 +18,8 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 * **Semantic Versioning Specification**: https://semver.org/
 * **NPM**: https://www.npmjs.com/
   * **Express (NPM Package)**: https://www.npmjs.com/package/express
-  * **Moment (NPM Package)**:https://www.npmjs.com/package/moment
+  * **Moment (NPM Package)**: https://www.npmjs.com/package/moment
+  * **Nodemon(NPM Package)**: https://www.npmjs.com/package/nodemon
 
 <br/>
 
@@ -103,10 +104,19 @@ With this command, npm will add the following dependencies on package.json:
  
  <br/>
  
- ### **npm update**
+### **npm update**
 This command is used to update the versions of the modules configured.
 ```
 $ npm update
+```
+
+<br/>
+
+### **nodemon**
+Nodemon is used to run NodeJS applications, and it gives the possibility to update files and instantly view the change on the running application (because it restarts the app).
+The command line is formed like the following code:
+```
+$ nodemon {/application_path/} 
 ```
 
 <br/>
