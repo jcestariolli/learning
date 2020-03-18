@@ -21,7 +21,7 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 * **NodeJS API**: https://nodejs.org/docs/latest/api/
 * **LibUV Documentation**: http://docs.libuv.org/
 * **Semantic Versioning Specification**: https://semver.org/
-* **NPM **: https://www.npmjs.com/
+* **NPM**: https://www.npmjs.com/
 
 
 --------------------------------------------------
