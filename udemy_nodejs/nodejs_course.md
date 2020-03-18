@@ -79,5 +79,9 @@ The following parameters were used:
  > _If we use `~`, then we tell node that it can only update patches of this dependency._
 
 <br/>
+
+The install call can also be used to install all dependencies of an application, by simply running, at the app directory, the command:
+```npm install```
+So it will use the file `packages.json` to install any configured dependencies.
  
 --------------------------------------------------
