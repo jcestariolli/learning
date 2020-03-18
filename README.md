@@ -20,6 +20,7 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 * **Visual Studio Code**: https://code.visualstudio.com/
 * **NodeJS API**: https://nodejs.org/docs/latest/api/
 * **LibUV Documentation**: http://docs.libuv.org/
+* **Semantic Versioning Specification**: https://semver.org/
  
 
 
