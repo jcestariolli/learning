@@ -14,8 +14,8 @@ http.createServer(function (req, res) {
     });
     
     var obj = {
-        firstname: 'John',
-        lastname: 'Doe'
+        firstname: 'Jeka',
+        lastname: 'Cestariolli'
     };
 
     res.end(JSON.stringify(obj));
