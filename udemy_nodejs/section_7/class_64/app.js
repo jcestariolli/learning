@@ -20,7 +20,7 @@ http.createServer(function (req, res) {
 
     res.end(JSON.stringify(obj));
   
-  } ekse {
+  } else {
     res.writeHead(404);
     res.end();  
   }
