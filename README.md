@@ -1,10 +1,12 @@
 # learning
 Repository to learn and practice, by Jessica Cestariolli 
-<br/><br/>
+<br/>
+<br/>
 
 ## Courses
 <br/>
-### ------ NODE JS ------
+
+### :star: NODE JS 
 https://github.com/jcestariolli/learning/tree/master/udemy_nodejs
 <br/>
 
@@ -26,8 +28,9 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 
 
 --------------------------------------------------
-<br/>
+
 #### EXTRAS
+
 <br/>
 
 ##### **npm init**
@@ -71,7 +74,7 @@ $ npm install moment --save
 <br/>
 
 The following parameters were used:
-* `--save`: specifies the installed module inside the `package.json` generated file [by `npm init`]
+* `--save`: specifies the installed module inside the `package.json` generated file (by `npm init`)
 
 
 --------------------------------------------------
