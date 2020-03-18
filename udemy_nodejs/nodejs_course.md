@@ -103,4 +103,12 @@ With this command, npm will add the following dependencies on package.json:
  
  <br/>
  
+ ### **npm update**
+This command is used to update the versions of the modules configured.
+```
+$ npm update
+```
+
+<br/>
+
 --------------------------------------------------
