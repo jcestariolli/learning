@@ -67,5 +67,5 @@ $ npm install moment --save
 ```
 
 The following parameters were used:
-* `**--save**`: test
+* `--save`: specifies the installed module inside the `package.json` generated file [by `npm init`]
 --------------------------------------------------
