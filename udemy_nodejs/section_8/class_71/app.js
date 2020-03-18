@@ -1,0 +1,27 @@
+var http = require('http');
+var fs = require('fs');
+
+// Working with routes - mapping http request to content
+http.createServer(function (req, res) {
+
+  if (req.url === '/') {
+    fs.createReadStream(__dirname + '/index.htm').pipe(res);
+  
+  } else if (req.url === '/api') {
+    
+    res.writeHead(200, {
+      'Content-Type': 'application/json'
+    });
+    
+    var obj = {
+        firstname: 'Jeka',
+        lastname: 'Cestariolli'
+    };
+
+    res.end(JSON.stringify(obj));
+  
+  } else {
+    res.writeHead(404);
+    res.end();  
+  }
+}).listen(1337, '127.0.0.1');
