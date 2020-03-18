@@ -93,4 +93,14 @@ With this command, npm will add the following dependencies on package.json:
  ```
  <br/>
  
+ * `--g {package}`: that argument specifies that npm should install the module in a place that can be used globally
+ Example:
+ ```
+ npm install -g nodemon
+ ``` 
+ With this command, npm will install the package `nodemon` the modules inside his own node_modules directory (were it is installed)
+ For example, in my computer it was installed inside the path `C:\Users\jessi\AppData\Roaming\npm\node_modules\nodemon`, where I have my Node installed.
+ 
+ <br/>
+ 
 --------------------------------------------------
