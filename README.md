@@ -1,4 +1,4 @@
-# :3 learning
+# :book: learning
 Repository to learn and practice, by Jessica Cestariolli 
 <br/>
 <br/>
