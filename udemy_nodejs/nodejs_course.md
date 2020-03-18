@@ -1,11 +1,14 @@
 # :star: NODE JS 
 https://github.com/jcestariolli/learning/tree/master/udemy_nodejs
+
 <br/>
 
 ## The Course
 On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 * https://www.udemy.com/course/understand-nodejs/
 * All practical exercises are distributed amongside the classes directories.
+
+<br/>
 
 ## Useful Links
 * **Download NodeJS**: https://nodejs.org/en/download/
@@ -17,13 +20,10 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
   * **Express (NPM Package)**: https://www.npmjs.com/package/express
   * **Moment (NPM Package)**:https://www.npmjs.com/package/moment
 
+<br/>
 
-
---------------------------------------------------
 
 ## EXTRAS
-
-<br/>
 
 ### **npm init**
 This command can be used to create a configuration inside the app dir / packages. The command used on this course was:
