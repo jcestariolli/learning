@@ -23,7 +23,7 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 * **Semantic Versioning Specification**: https://semver.org/
 * **NPM**: https://www.npmjs.com/
   * **Express (NPM Package)**: https://www.npmjs.com/package/express
-  * **Express (NPM Package)**:https://www.npmjs.com/package/moment
+  * **Moment (NPM Package)**:https://www.npmjs.com/package/moment
 
 --------------------------------------------------
 
