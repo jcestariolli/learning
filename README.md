@@ -22,7 +22,7 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 * **LibUV Documentation**: http://docs.libuv.org/
 * **Semantic Versioning Specification**: https://semver.org/
 * **NPM**: https://www.npmjs.com/
-
+* **Express NPM Package**: https://www.npmjs.com/package/express
 
 --------------------------------------------------
 
