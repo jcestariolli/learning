@@ -80,7 +80,7 @@ With this command, npm will add the following dependencies on package.json:
 
 <br/>
  
-* `--save-dev`: specifies that the module should be configured also in file _packages.json_, but only using the dependy to development, not to run the application. 
+* `--save-dev`: specifies that the module should be configured also in file _packages.json_, but only using the depency to development, not to run the application. That means that the module doesnt have to be in the server to run, only for development (as it is a development module)
  Example:
  ```
  npm install jasmine-code --save-dev
