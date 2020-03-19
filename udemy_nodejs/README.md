@@ -1,8 +1,6 @@
 # :star: NODE JS 
 https://github.com/jcestariolli/learning/tree/master/udemy_nodejs
 
-MARKDOWN
-[LINK](#express-generator)
 <br/>
 
 ## The Course
