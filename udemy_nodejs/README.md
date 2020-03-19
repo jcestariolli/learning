@@ -10,18 +10,18 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 <br/>
 
 ## Index
-* [Useful Links][useful-links]
-* Extras
-** [npm init command](#npm-init)
-** [npm install comamnd](#npm-install)
-** [npm update command](#npm-update)
-** [npm - globally installed packages on this course](#npm-globaly-installed-packages)
-** [Using nodemon](#nodemon)
-** [Using express-generator](#express-generator)
+* [useful links][useful-links]
+* extras
+  * [npm init command](#npm-init)
+  * [npm install comamnd](#npm-install)
+  * [npm update command](#npm-update)
+  * [npm - globally installed packages on this course](#npm-globaly-installed-packages)
+  * [Using nodemon](#nodemon)
+  * [Using express-generator](#express-generator)
 
 <br/>
 
-## Useful Links
+## **useful links**
 * **Download NodeJS**: https://nodejs.org/en/download/
 * **Visual Studio Code**: https://code.visualstudio.com/
 * **NodeJS API**: https://nodejs.org/docs/latest/api/
