@@ -9,6 +9,18 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 
 <br/>
 
+## Index
+* [Useful Links][usefull-links]
+* Extras
+** [npm init command](#npm-init)
+** [npm install comamnd](#npm-install)
+** [npm update command](#npm-update)
+** [npm - globally installed packages on this course](#npm-globaly-installed-packages)
+** [Using nodemon](#nodemon)
+** [Using express-generator](#express-generator)
+
+<br/>
+
 ## Useful Links
 * **Download NodeJS**: https://nodejs.org/en/download/
 * **Visual Studio Code**: https://code.visualstudio.com/
@@ -28,19 +40,9 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 
 
 ## EXTRAS
-### Index
-* [npm init command](#npm-init)
-* [npm install comamnd](#npm-install)
-* [npm update command](#npm-update)
-* [npm - globally installed packages on this course](#npm-globaly-installed-packages)
-* [Using nodemon](#nodemon)
-* [Using express-generator](#express-generator)
 
-<br/>
 
------
-
-### **npm-init**
+### **npm init**
 This command can be used to create a configuration inside the app dir / packages. The command used on this course was:
 ```
 $ npm init
@@ -74,7 +76,7 @@ About to write to C:\Users\jessi\Documents\learning\udemy_nodejs\section_8\class
 
 -----
 
-### npm-install
+### npm install
 This command can be used to install a package on a directory, application configuration, or similar. 
 By simple running the this command on the application directory, it will use the file `packages.json` to install any configured dependencies.
 <br/>
@@ -122,7 +124,7 @@ With this command, npm will add the following dependencies on package.json:
  
 -----
  
-### **npm-update**
+### **npm update**
 This command is used to update the versions of the modules configured.
 ```
 $ npm update
