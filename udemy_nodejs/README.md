@@ -43,7 +43,8 @@ All the classes are from the course on Udemy - **Learn and Understand NodeJS**, 
 
 
 ### **npm init**
-This command can be used to create a configuration inside the app dir / packages. The command used on this course was:
+This command can be used to create a npm configuration for the application. 
+The `package.json` file will be generated using the following command:
 ```
 $ npm init
 ```
