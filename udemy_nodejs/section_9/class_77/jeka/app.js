@@ -16,8 +16,9 @@ app.get('/', function(req, res) {
 	res.render('index');
 });
 
+// express provides an engine to process query string
 app.get('/person/:id', function(req, res) {
-	res.render('person', { ID: req.params.id });
+	res.render('person', { ID: req.params.id , QueryString: req.query.qrstr});
 });
 
 app.get('/api', function(req, res) {
