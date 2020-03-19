@@ -1,15 +1,15 @@
-# :star: NODE JS 
+# :star: Node JS
 
 <br/>
 
-## The Course
-On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
+## THE CLASSES:
+All the classes are from the course on Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 * https://www.udemy.com/course/understand-nodejs/
 * All practical exercises are distributed amongside the classes directories.
 
 <br/>
 
-## Index
+## IN THIS DOC:
 * [Useful Links](#useful-links)
 * Extras:
   * [npm init command](#npm-init)
@@ -21,7 +21,7 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 
 <br/>
 
-## **Useful Links**
+## **USEFUL LINKS**
 * **Download NodeJS**: https://nodejs.org/en/download/
 * **Visual Studio Code**: https://code.visualstudio.com/
 * **NodeJS API**: https://nodejs.org/docs/latest/api/
