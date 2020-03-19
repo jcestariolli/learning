@@ -29,7 +29,7 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 
 
 ## EXTRAS
-
+### Index
 * [npm init command](#npm-init)
 * [npm install comamnd](#npm-install)
 * [npm update command](#npm-update)
@@ -71,6 +71,7 @@ About to write to C:\Users\jessi\Documents\learning\udemy_nodejs\section_8\class
 ```
 
 <br/>
+-----
 
 ### npm-install
 This command can be used to install a package on a directory, application configuration, or similar. 
@@ -116,7 +117,9 @@ With this command, npm will add the following dependencies on package.json:
  With this command, npm will install the package `nodemon` the modules inside his own node_modules directory (were it is installed)
  For example, in my computer it was installed inside the path `C:\Users\jessi\AppData\Roaming\npm\node_modules\nodemon`, where I have my Node installed.
  
- <br/>
+<br/>
+ 
+-----
  
 ### **npm-update**
 This command is used to update the versions of the modules configured.
@@ -133,6 +136,8 @@ To execute the exercises, the following installs were made:
 
 <br/>
 
+-----
+
 ### **nodemon**
 Nodemon is used to run NodeJS applications, and it gives the possibility to update files and instantly view the change on the running application (because it restarts the app).
 The command line is formed like the following code:
@@ -141,6 +146,8 @@ $ nodemon {/application_path/}
 ```
 
 <br/>
+
+-----
 
 ### **express-generator**
 Express Generator gives us the ability to generate automatically an app structure.
