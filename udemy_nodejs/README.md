@@ -1,6 +1,8 @@
 # :star: NODE JS 
 https://github.com/jcestariolli/learning/tree/master/udemy_nodejs
 
+MARKDOWN
+[LINK](#express-generator)
 <br/>
 
 ## The Course
@@ -30,7 +32,17 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 
 ## EXTRAS
 
-### **npm init**
+* [npm init command](#npm-init)
+* [npm install comamnd](#npm-install)
+* [npm update command](#npm-update)
+* [npm - globally installed packages on this course](#npm-globaly-installed-packages)
+* [Using nodemon](#nodemon)
+* [Using express-generator](#express-generator)
+-----
+
+<br/>
+
+### **npm-init**
 This command can be used to create a configuration inside the app dir / packages. The command used on this course was:
 ```
 $ npm init
@@ -62,7 +74,7 @@ About to write to C:\Users\jessi\Documents\learning\udemy_nodejs\section_8\class
 
 <br/>
 
-### npm install
+### npm-install
 This command can be used to install a package on a directory, application configuration, or similar. 
 By simple running the this command on the application directory, it will use the file `packages.json` to install any configured dependencies.
 <br/>
@@ -108,7 +120,7 @@ With this command, npm will add the following dependencies on package.json:
  
  <br/>
  
-### **npm update**
+### **npm-update**
 This command is used to update the versions of the modules configured.
 ```
 $ npm update
@@ -116,7 +128,7 @@ $ npm update
 
 <br/>
 
-### **npm globaly installed packages**
+### **npm-globaly-installed-packages**
 To execute the exercises, the following installs were made:
 * `$ npm install -g nodemon`
 * `$ npm install -g express-generator`
