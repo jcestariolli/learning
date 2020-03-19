@@ -21,6 +21,7 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
   * **Moment (NPM Package)**: https://www.npmjs.com/package/moment
   * **Nodemon(NPM Package)**: https://www.npmjs.com/package/nodemon
 * **Express Middleware**: https://expressjs.com/en/resources/middleware.html
+* **EJS - Embedded JavaScript Template**: https://ejs.co/
 
 <br/>
 
