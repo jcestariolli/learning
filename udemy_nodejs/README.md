@@ -130,7 +130,7 @@ $ npm update
 
 <br/>
 
-### **npm-globaly-installed-packages**
+### **npm globaly installed packages**
 To execute the exercises, the following installs were made:
 * `$ npm install -g nodemon`
 * `$ npm install -g express-generator`
