@@ -23,28 +23,16 @@ app.get('/', function(req, res) {
 });
 
 // express provides an engine to process query string
-app.get('/person/:id', function(req, res) {
+app.get('/api/person/:id', function(req, res) {
 	res.render('person', { ID: req.params.id , QueryString: req.query.qrstr});
 });
 
-// POST for the same route
-// urlencodedParser will be the middleware to be called before the code gets here
-app.post('/person', urlencodedParser, function(req, res) {
-	res.send('Thank you person!');
-	// body parser automatically attachs the parameters inside the req object and attach the properties that came on the post method
-	console.log(req.body.firstname);
-	console.log(req.body.lastname);
+app.post('/api/person', jsonParser, function(req, res) {
+	// save to database
 });
 
-app.post('/personjson', jsonParser, function(req, res) {
-	res.send('Thank you for the JSON data!');
-	console.log(req.body.firstname);
-	console.log(req.body.lastname);
-});
-
-
-app.get('/api', function(req, res) {
-	res.json({ firstname: 'John', lastname: 'Doe' });
+app.delete('/api/person/:id', function(req, res) {
+	// delete from database
 });
 
 
