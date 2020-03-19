@@ -10,8 +10,8 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 <br/>
 
 ## Index
-* [useful links][useful-links]
-* extras
+* [Useful Links](#useful-links)
+* Extras:
   * [npm init command](#npm-init)
   * [npm install comamnd](#npm-install)
   * [npm update command](#npm-update)
@@ -21,7 +21,7 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 
 <br/>
 
-## **useful links**
+## **Useful Links**
 * **Download NodeJS**: https://nodejs.org/en/download/
 * **Visual Studio Code**: https://code.visualstudio.com/
 * **NodeJS API**: https://nodejs.org/docs/latest/api/
