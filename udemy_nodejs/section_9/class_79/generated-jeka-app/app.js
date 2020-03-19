@@ -4,7 +4,9 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+// ROUTES configured previously
 var indexRouter = require('./routes/index');
+// in this path, routes will be proccessed
 var usersRouter = require('./routes/users');
 
 var app = express();
@@ -19,6 +21,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// How they separate routes
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 

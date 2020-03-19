@@ -1,4 +1,7 @@
+// Works with any routes that matches /users
+
 var express = require('express');
+// Creates a router to be exported in app.js
 var router = express.Router();
 
 /* GET users listing. */
