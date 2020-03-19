@@ -17,11 +17,13 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 * **LibUV Documentation**: http://docs.libuv.org/
 * **Semantic Versioning Specification**: https://semver.org/
 * **NPM**: https://www.npmjs.com/
-  * **Express (NPM Package)**: https://www.npmjs.com/package/express
-  * **Moment (NPM Package)**: https://www.npmjs.com/package/moment
   * **Nodemon(NPM Package)**: https://www.npmjs.com/package/nodemon
+  * **Moment (NPM Package)**: https://www.npmjs.com/package/moment
+  * **Express (NPM Package)**: https://www.npmjs.com/package/express
+* **Nodemon**: https://nodemon.io/
 * **Express Middleware**: https://expressjs.com/en/resources/middleware.html
 * **EJS - Embedded JavaScript Template**: https://ejs.co/
+* **Express Generator**: https://expressjs.com/pt-br/starter/generator.html
 
 <br/>
 
@@ -68,7 +70,7 @@ By simple running the this command on the application directory, it will use the
 * `--save`: specifies that the module should be configured also in file _packages.json_, besides the module installation.
  Example:
 ```
-npm install moment --save
+$ npm install moment --save
 ```
 With this command, npm will add the following dependencies on package.json:
 ```
@@ -86,7 +88,7 @@ With this command, npm will add the following dependencies on package.json:
 * `--save-dev`: specifies that the module should be configured also in file _packages.json_, but only using the depency to development, not to run the application. That means that the module doesnt have to be in the server to run, only for development (as it is a development module)
  Example:
  ```
- npm install jasmine-code --save-dev
+ $ npm install jasmine-code --save-dev
  ``` 
  With this command, node will add the the following development dependencies on package.json:
  ```
@@ -99,7 +101,7 @@ With this command, npm will add the following dependencies on package.json:
  * `--g {package}`: that argument specifies that npm should install the module in a place that can be used globally
  Example:
  ```
- npm install -g nodemon
+ $ npm install -g nodemon
  ``` 
  With this command, npm will install the package `nodemon` the modules inside his own node_modules directory (were it is installed)
  For example, in my computer it was installed inside the path `C:\Users\jessi\AppData\Roaming\npm\node_modules\nodemon`, where I have my Node installed.
@@ -114,11 +116,27 @@ $ npm update
 
 <br/>
 
+### **npm globaly installed packages**
+To execute the exercises, the following installs were made:
+* `$ npm install -g nodemon`
+* `$ npm install -g express-generator`
+
+<br/>
+
 ### **nodemon**
 Nodemon is used to run NodeJS applications, and it gives the possibility to update files and instantly view the change on the running application (because it restarts the app).
 The command line is formed like the following code:
 ```
 $ nodemon {/application_path/} 
+```
+
+<br/>
+
+### **express-generator**
+Express Generator gives us the ability to generate automatically an app structure.
+The followinf command line is executed in the folder where we want to create the application:
+```
+$ express {application_name} 
 ```
 
 <br/>
