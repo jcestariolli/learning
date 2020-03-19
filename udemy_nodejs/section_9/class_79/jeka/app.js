@@ -1,5 +1,9 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var apiController = require('./controllers/apiController');
+var htmlController = require('./controllers/htmlController');
+
+
 var app = express();
 
 var port = process.env.PORT || 3000;
@@ -16,31 +20,6 @@ app.use('/', function (req, res, next) {
 	next();
 });
 
-app.get('/', function(req, res) {
-	res.render('index');
-});
-
-app.get('/person/:id', function(req, res) {
-	res.render('person', { ID: req.params.id, Qstr: req.query.qstr });
-});
-
-app.post('/person', urlencodedParser, function(req, res) {
-	res.send('Thank you!');
-	console.log(req.body.firstname);
-	console.log(req.body.lastname);
-});
-
-app.get('/api/person/:id', function(req, res) {
-	// get that data from database
-	res.json({ firstname: 'John', lastname: 'Doe' });
-});
-
-app.post('/api/person', jsonParser, function(req, res) {
-	// save to the database
-});
-
-app.delete('/api/person/:id', function(req, res) {
-	// delete from the database
-});
-
+htmlController(app);
+apiController(app);
 app.listen(port);
