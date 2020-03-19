@@ -5,17 +5,24 @@ var port = process.env.PORT || 3000;
 
 app.use('/assets', express.static(__dirname + '/public'));
 
+// EJS always look inside the path inside where application is running for a folder called views
+app.set('view engine', 'ejs');
+
 app.use('/', function (req, res, next) {
 	console.log('Request Url:' + req.url);
 	next();
 });
 
+// instead of sending html, we use the method render
 app.get('/', function(req, res) {
-	res.send('<html><head><link href=assets/style.css type=text/css rel=stylesheet /></head><body><h1>Hello world!</h1></body></html>');
+	// inside folder view, it looks for a file called index.ejs
+	res.render('index'); 
+	//We can also send objects to the render method
 });
 
 app.get('/person/:id', function(req, res) {
-	res.send('<html><head></head><body><h1>Person: ' + req.params.id + '</h1></body></html>');
+	// instead of sending html, we use the method render
+	res.render('person', { ID: req.params.id });
 });
 
 app.get('/api', function(req, res) {
