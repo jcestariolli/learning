@@ -79,7 +79,7 @@ About to write to C:\Users\jessi\Documents\learning\udemy_nodejs\section_8\class
 
 ### npm install
 This command can be used to install a package on a directory, application configuration, or similar. 
-By simple running the this command on the application directory, it will use the file `packages.json` to install any configured dependencies.
+By simple running the command on the application directory, it will use the file `packages.json` to install any configured dependencies.
 <br/>
 #### Some arguments:
 * `--save`: specifies that the module should be configured also in file _packages.json_, besides the module installation.
