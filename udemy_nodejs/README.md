@@ -10,7 +10,7 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 <br/>
 
 ## Index
-* [Useful Links][usefull-links]
+* [Useful Links][useful-links]
 * Extras
 ** [npm init command](#npm-init)
 ** [npm install comamnd](#npm-install)
