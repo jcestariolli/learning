@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<link href="assets/style.css" type="text/css" rel="stylesheet" />
+		<!--Using JQuery-->
 		<script src="https://code.jquery.com/jquery-1.11.3.min.js" ></script>
 	</head>
 	<body>
@@ -14,7 +15,7 @@
 			$.ajax({
 				type: "POST",
 				url: "/personjson",
-				data: JSON.stringify({ firstname: 'Jane', lastname: 'Doe' }),
+				data: JSON.stringify({ firstname: 'Jason', lastname: 'Doe' }),
 				dataType: 'json',
 				contentType: 'application/json'
 			});

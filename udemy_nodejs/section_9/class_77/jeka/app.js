@@ -6,7 +6,7 @@ var app = express();
 var port = process.env.PORT || 3000;
 // copied from body-parser page 
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
-
+var jsonParser = bodyParser.json();
 
 app.use('/assets', express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
@@ -32,6 +32,12 @@ app.get('/person/:id', function(req, res) {
 app.post('/person', urlencodedParser, function(req, res) {
 	res.send('Thank you person!');
 	// body parser automatically attachs the parameters inside the req object and attach the properties that came on the post method
+	console.log(req.body.firstname);
+	console.log(req.body.lastname);
+});
+
+app.post('/personjson', jsonParser, function(req, res) {
+	res.send('Thank you for the JSON data!');
 	console.log(req.body.firstname);
 	console.log(req.body.lastname);
 });
