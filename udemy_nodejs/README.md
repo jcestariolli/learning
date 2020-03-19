@@ -36,9 +36,10 @@ On Udemy - **Learn and Understand NodeJS**, by *Anthony Alicea*
 * [npm - globally installed packages on this course](#npm-globaly-installed-packages)
 * [Using nodemon](#nodemon)
 * [Using express-generator](#express-generator)
------
 
 <br/>
+
+-----
 
 ### **npm-init**
 This command can be used to create a configuration inside the app dir / packages. The command used on this course was:
@@ -71,6 +72,7 @@ About to write to C:\Users\jessi\Documents\learning\udemy_nodejs\section_8\class
 ```
 
 <br/>
+
 -----
 
 ### npm-install
