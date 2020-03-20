@@ -39,8 +39,10 @@ All the classes are from the course on Udemy - **Learn and Understand NodeJS**, 
   * **Express**: https://www.npmjs.com/package/express
   * **EJS**: https://www.npmjs.com/package/ejs
   * **Express Generator**: https://www.npmjs.com/package/express-generator
+  * **Body Parser**: https://www.npmjs.com/package/body-parser
   * **MySQL**: https://www.npmjs.com/package/mysql
   * **Mongoose**: https://www.npmjs.com/package/mongoose
+  
 
 <br/>
 
