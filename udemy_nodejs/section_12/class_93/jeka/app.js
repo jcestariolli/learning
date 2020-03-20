@@ -1,4 +1,7 @@
 var express = require('express');
+var mongoose = require('mongoose');
+var config = require('./config'); // Our config
+
 // Creates the app
 var app = express();
 
@@ -11,5 +14,11 @@ app.use('/assets', express.static(__dirname + '/public'));
 // Define the view engine 
 app.set('view engine', 'ejs')
 
+// Configuring the DB
+mongoose.connect(config.getDbConnectionString());
+
+
+
 // Listen to that port
 app.listen(port);
+
