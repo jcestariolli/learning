@@ -33,6 +33,7 @@ All the classes are from the course on Udemy - **Learn and Understand NodeJS**, 
 * **Angular 2**: https://angular.io/
 * **Angular Quickstart (deprecated, use for the course only)**: https://github.com/angular/quickstart
 * **TypeScript**: https://www.typescriptlang.org/
+* **Reactive X**: http://reactivex.io/
 * **JSON Generator**: https://www.json-generator.com/
 * **Postman**: https://www.postman.com/
 
