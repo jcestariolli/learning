@@ -27,13 +27,17 @@ All the classes are from the course on Udemy - **Learn and Understand NodeJS**, 
 * **NodeJS API**: https://nodejs.org/docs/latest/api/
 * **LibUV Documentation**: http://docs.libuv.org/
 * **Semantic Versioning Specification**: https://semver.org/
-* **NPM**: https://www.npmjs.com/
-  * **Nodemon(npm package)**: https://www.npmjs.com/package/nodemon
-  * **Moment (npm package)**: https://www.npmjs.com/package/moment
-  * **Express (npm package)**: https://www.npmjs.com/package/express
-  * **EJS (npm package)**: https://www.npmjs.com/package/ejs
-  * **MySQL (npm package)**: https://www.npmjs.com/package/mysql
-  * **Express Generator (npm package)**: https://www.npmjs.com/package/express-generator
+* **MongoDB**: https://www.mongodb.com/
+* **NPM packages**: https://www.npmjs.com/
+  * **Nodemon**: https://www.npmjs.com/package/nodemon
+  * **Moment**: https://www.npmjs.com/package/moment
+  * **Express**: https://www.npmjs.com/package/express
+  * **EJS**: https://www.npmjs.com/package/ejs
+  * **Express Generator**: https://www.npmjs.com/package/express-generator
+  * **MySQL**: https://www.npmjs.com/package/mysql
+  * **Mongoose**: https://www.npmjs.com/package/mongoose
+
+
 
 <br/>
 
