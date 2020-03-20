@@ -26,7 +26,10 @@ app.use('/', function (req, res, next) {
 	con.query('select person_address.ID, person.firstname, person.lastname, address.address from person inner join person_address on person.ID = person_address .person_ID inner join address on address.ID = person_address.address_ID',
 		function(err, rows) {
 			if(err) throw err;
+
+			// this will log all the rows that it gets
 			console.log(rows);
+			console.log('\n-----Firstname obtained: ' + rows[0].firstname);
 		}
 	);
 	console.log();
