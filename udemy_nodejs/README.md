@@ -31,6 +31,7 @@ All the classes are from the course on Udemy - **Learn and Understand NodeJS**, 
 * **Mongo Lab**: https://mlab.com/
 * **AngularJS**: https://angularjs.org/
 * **Angular 2**: https://angular.io/
+* **Angular Quickstart (deprecated, use for the course only)**: https://github.com/angular/quickstart
 * **JSON Generator**: https://www.json-generator.com/
 * **Postman**: https://www.postman.com/
 
