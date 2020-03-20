@@ -9,18 +9,7 @@ angular.module('TestApp',[]);
 
 // 'this' points to the object that controller has, where I called vm (view model) in my index (from ejs)
 function ctrlFunc(){
-    this.message = 'Hello person!';
-    this.people =[
-        {
-            name: 'Jeka C'
-        },
-        {
-            name: 'Dan S'
-        },
-        {
-            name: 'Felipe R'
-        }
-    ];
+    this.people = clientPeople;
 }
 
 // This add the controller to this module, this app

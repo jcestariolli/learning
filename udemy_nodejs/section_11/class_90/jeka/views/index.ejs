@@ -4,31 +4,21 @@
 <html ng-app="TestApp">
 	<head>
 		<title>The MEAN stack</title>
-		<!-- CDN from angular to offer the file to the client without make our server deal with so much requests for this file -->
-		<!--This is the uncompressed version to deal better with errors -->
-		<!--This is not being processed by node in anyway, is only clientside -->
-		<!--we put scripts on head when we need it to be loaded completed before the page loads-->
     	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
 	</head>
-	<!--This controller will manage the content inside this dom object, this particular html element-->
-	<!--vm is the variable name where angular will assign the object obtained by my controller -->
 	<body ng-controller="MainController as vm">
-		<!-- two curly braces lets us to work with js code and use other variables, that was given from node to the browser--> 
-		<!-- node will replace this with the the value from the variable defined on app.js on assets (static content)-->
-		<!--the ng-model directive lets us to do the same instead of using curly braces, and access the variable -->
-		<input type="text" ng-model="vm.message">
-		<br/><br/>
-		{{vm.message}}
-		<!--this also lets us bind both blocks, so if the text input is changed, the text on body will also be changed-->
-
-		<br/><br/>
 		<ul>
 			<!--This makes ng create an array working with the variable person inside the vm.person variable -->
 			<li ng-repeat="person in vm.people">
 				{{person.name}}
 			</li>
 		</ul>
-
+		<!-- taking code from the server and let it available -->
+		<script>
+			// using ejs directives to output JSON
+			// serverside template code to see how it works
+			var clientPeople = <%- JSON.stringify(serverPeople) %>;
+		</script>
 		<script src="/assets/js/app.js"></script>
 	</body>
 </html>
