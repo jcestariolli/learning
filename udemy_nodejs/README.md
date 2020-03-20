@@ -28,6 +28,7 @@ All the classes are from the course on Udemy - **Learn and Understand NodeJS**, 
 * **LibUV Documentation**: http://docs.libuv.org/
 * **Semantic Versioning Specification**: https://semver.org/
 * **MongoDB**: https://www.mongodb.com/
+* **Mongo Lab**: https://mlab.com/
 * **NPM packages**: https://www.npmjs.com/
   * **Nodemon**: https://www.npmjs.com/package/nodemon
   * **Moment**: https://www.npmjs.com/package/moment
@@ -61,7 +62,7 @@ git repository:
 keywords:
 author:
 license: (ISC)
-About to write to C:\Users\jessi\Documents\learning\udemy_nodejs\section_8\class_69\package.json:
+About to write to .learning\udemy_nodejs\section_8\class_69\package.json:
 
 {
   "name": "nodejs-test-app",
