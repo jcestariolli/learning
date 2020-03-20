@@ -31,6 +31,8 @@ All the classes are from the course on Udemy - **Learn and Understand NodeJS**, 
 * **Mongo Lab**: https://mlab.com/
 * **AngularJS**: https://angularjs.org/
 * **JSON Generator**: https://www.json-generator.com/
+* **Postman**: https://www.postman.com/
+
 * **NPM packages**: https://www.npmjs.com/
   * **Nodemon**: https://www.npmjs.com/package/nodemon
   * **Moment**: https://www.npmjs.com/package/moment
