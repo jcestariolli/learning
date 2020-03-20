@@ -1,0 +1,24 @@
+
+<!--Here we use a directive from angular to do some work-->
+<!--This will be my angular app-->
+<html ng-app="TestApp">
+	<head>
+		<title>The MEAN stack</title>
+    	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+	</head>
+	<body ng-controller="MainController as vm">
+		<ul>
+			<!--This makes ng create an array working with the variable person inside the vm.person variable -->
+			<li ng-repeat="person in vm.people">
+				{{person.name}}
+			</li>
+		</ul>
+		<!-- taking code from the server and let it available -->
+		<script>
+			// using ejs directives to output JSON
+			// serverside template code to see how it works
+			var clientPeople = <%- JSON.stringify(serverPeople) %>;
+		</script>
+		<script src="/assets/js/app.js"></script>
+	</body>
+</html>
