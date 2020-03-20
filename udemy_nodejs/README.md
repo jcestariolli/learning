@@ -29,6 +29,7 @@ All the classes are from the course on Udemy - **Learn and Understand NodeJS**, 
 * **Semantic Versioning Specification**: https://semver.org/
 * **MongoDB**: https://www.mongodb.com/
 * **Mongo Lab**: https://mlab.com/
+* **AngularJS**: https://angularjs.org/
 * **NPM packages**: https://www.npmjs.com/
   * **Nodemon**: https://www.npmjs.com/package/nodemon
   * **Moment**: https://www.npmjs.com/package/moment
@@ -38,13 +39,9 @@ All the classes are from the course on Udemy - **Learn and Understand NodeJS**, 
   * **MySQL**: https://www.npmjs.com/package/mysql
   * **Mongoose**: https://www.npmjs.com/package/mongoose
 
-
-
 <br/>
 
-
 ## EXTRAS
-
 
 ### **npm init**
 This command can be used to create a npm configuration for the application. 
