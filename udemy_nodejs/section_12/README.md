@@ -20,3 +20,9 @@ npm install --save-dev express ejs body-parser mongoose
 ```
 
 <br/>
+
+After the installation of Angular in the application (with the quickstart package inside our public directory), we run the following command to make angular load ts and convert to js:
+```
+npm run build:watch
+```
+_So as we update TypeScript files, it automatically generates the js files_

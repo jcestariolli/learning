@@ -4,12 +4,12 @@ import { Headers, Http } from '@angular/http';
 
 import 'rxjs/add/operator/toPromise';
 
-import {Todo} from './todos';
+import {Todo} from './todo';
 
 @Injectable()
 export class TodoSevice {
     private headers = new Headers({'Content-Type': 'application/json'});
-    private todosApiUrl = 'api/todos/test';
+    private todosApiUrl = '/api/todos/test';
 
     constructor(private http: Http) {}
     getTodos(): Promise<Todo[]> {

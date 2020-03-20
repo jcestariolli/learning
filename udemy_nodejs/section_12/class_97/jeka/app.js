@@ -12,7 +12,7 @@ var app = express();
 var port = process.env.port || 3000;
 
 // Define the dir public as the path assets to static access them
-app.use('/', express.static(__dirname + '/public'));
+app.use('/', express.static(__dirname + '/public/'));
 
 // Define the view engine 
 app.set('view engine', 'ejs')
