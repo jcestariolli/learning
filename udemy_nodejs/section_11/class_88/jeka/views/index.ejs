@@ -15,8 +15,20 @@
 	<body ng-controller="MainController as vm">
 		<!-- two curly braces lets us to work with js code and use other variables, that was given from node to the browser--> 
 		<!-- node will replace this with the the value from the variable defined on app.js on assets (static content)-->
+		<!--the ng-model directive lets us to do the same instead of using curly braces, and access the variable -->
+		<input type="text" ng-model="vm.message">
+		<br/><br/>
 		{{vm.message}}
-		
+		<!--this also lets us bind both blocks, so if the text input is changed, the text on body will also be changed-->
+
+		<br/><br/>
+		<ul>
+			<!--This makes ng create an array working with the variable person inside the vm.person variable -->
+			<li ng-repeat="person in vm.people">
+				{{person.name}}
+			</li>
+		</ul>
+
 		<script src="/assets/js/app.js"></script>
 	</body>
 </html>
