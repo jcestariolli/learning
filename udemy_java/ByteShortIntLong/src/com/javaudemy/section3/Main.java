@@ -43,7 +43,7 @@ public class Main {
         int myTotal = (myMinIntValue / 2);
 
         byte myNewByteValue = (byte) (myMinByteValue / 2);
-
         short myNewShortValue = (short) (myMinShortValue / 2);
+
     }
 }
